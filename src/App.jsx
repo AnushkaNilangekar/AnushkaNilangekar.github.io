@@ -1,9 +1,9 @@
 import React from 'react';
-import Sidebar from './components/Sidebar';
-import Intro from './components/sections/Intro';
-import About from './components/sections/About';
-import Skills from './components/sections/Skills';
-import Contact from './components/sections/Contact';
+import Sidebar from './components/Sidebar.jsx';
+import Intro from './components/sections/Intro.jsx';
+import About from './components/sections/About.jsx';
+import Skills from './components/sections/Skills.jsx';
+import Contact from './components/sections/Contact.jsx';
 import './styles/globals.css';
 
 function App() {

@@ -18,9 +18,4 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true,
   },
-  esbuild: {
-    loader: 'jsx',
-    include: /src\/.*\.js$/,
-    exclude: [],
-  },
 });
