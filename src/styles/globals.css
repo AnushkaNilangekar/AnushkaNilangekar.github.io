@@ -1,0 +1,50 @@
+/* tailwindcss */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Custom Globals === */
+
+:root {
+  --primary: #7c3aed; /* Amethyst purple */
+  --secondary: #a78bfa; /* Soft lilac */
+  --accent: #c084fc; /* Light amethyst */
+  --background: #1f1b2e; /* Deep violet backdrop */
+  --text-main: #f3e8ff; /* Soft white-purple text */
+  --text-subtle: #d8b4fe;
+}
+
+html, body {
+  @apply bg-[color:var(--background)] text-[color:var(--text-main)] font-sans;
+  scroll-behavior: smooth;
+}
+
+a {
+  @apply text-[color:var(--accent)] hover:underline transition-all duration-200;
+}
+
+h1, h2, h3, h4 {
+  @apply text-[color:var(--secondary)] font-bold;
+}
+
+button {
+  @apply px-4 py-2 rounded-lg font-medium shadow-md bg-[color:var(--primary)] text-white hover:bg-[color:var(--accent)] transition-all duration-300;
+}
+
+/* Custom Section Fade Effects */
+.section-fade {
+  background: linear-gradient(180deg, rgba(31,27,46,1) 0%, rgba(124,58,237,0.1) 100%);
+}
+
+/* Glassmorphism container */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-top: 100px;
+}
