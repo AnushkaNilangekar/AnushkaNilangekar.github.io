@@ -7,14 +7,12 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 - **React** - Frontend library for building user interfaces
 - **Vite** - Next generation frontend tooling
 - **Tailwind CSS** - Utility-first CSS framework
-- **ESLint** - Code quality tool
 
 ## 🛠️ Setup and Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/AnushkaNilangekar/AnushkaNilangekar.github.io.git
-   cd AnushkaNilangekar.github.io/frontend
    ```
 
 2. Install dependencies:
@@ -36,13 +34,6 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
    ```bash
    npm run preview
    ```
-
-## Code Quality
-
-The project uses ESLint for code quality. Run the linter with:
-```bash
-npm run lint
-```
 
 ## 📄 License
 
